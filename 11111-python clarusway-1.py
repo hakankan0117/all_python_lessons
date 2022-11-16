@@ -13,3 +13,7 @@ print("x = 3")  # eşittirden sonra boşluk iyi olur
 print("i love you")
 print("yes")
 print("no")
+
+
+
+çok fazla print var
