@@ -11,14 +11,14 @@
 # my_age = 10
 # print(my_age)  # python son yazan geçerli
 
-# x = y = z = "same"
-# x = "not same"
-# z = x
-# y = x
-# print(x)
-# print(y)
-# print(z)
-# print(x, y, z)
+x = y = z = "same"
+x = "not same"
+z = x
+y = x
+print(x)
+print(y)
+print(z)
+print(x, y, z)
 
 
 # january = march = may = july = august = october = december = 31
