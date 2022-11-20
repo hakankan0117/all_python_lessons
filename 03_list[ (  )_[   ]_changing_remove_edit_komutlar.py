@@ -50,38 +50,51 @@
 # print(text.lstrip("t").upper().rstrip("z"))  # sırasıyla yaptığı için küçük "z" kaldırılmadı, çünkü "Z" old. için
 # print(text.upper().strip("TZ"))  # en solda ve en sağdaki harfleri kaldırır.
 
-#   []
-#   list() []
-#   tuple() ()
-#   dict() {}
-#   set()
+#   list []
+#   tuple ()
+#   dict {}
+#   set {}
 
 # text1 = ["kuroko no basket", 36, ["Slam Dunk"]]
 # print((text1))
 
 # liste1 = ["happy", 336, 3.14]
-# liste2 = ("happy")  # list (), [] şeklinde olabiliyor
+# liste2 = ("happy") 
 # liste3 = "happy"
 # print(liste3)
 # print(list(liste1))
 # print(list(liste2))  # output liste [] içinde veriliyor
 
-# list_1 = ['h', 'a', 'p', 'p', 'y']
+list_1 = ['h', 'a', 'p', 'p', 'y']
+my_tuple = tuple(list_1)
+my_set = set(list_1)
+my_dict = dict(list_1)
+print(my_tuple)
+print(my_set)
+print(my_dict)  # dönüşemez, dict'te mutlaka key:value olacak.
+
 # word = 'happy'
 # list_2 = list(word)
 # print(list(word))
-# print(list_1)
 # print(list_2)
 
 # country = ["USA", "New Zealand", "Finland", "Sweden", "Syria", "Turkey"]
+# a = "Sweden"
+# b = tuple(a[:])
 # print(country)
-# print(list(country))
+# print(list(country[3]))
+# print(list(a))
+# print(b)
 
-# mixed_list = [11, 'Joseph', False, 3.14, None, {1: "bir"}]  # dictionary süslü parantez olması lazım
+# mixed_list = [11, 'Joseph', False, 3.14, None, {1: "bir"}]  
 # output = list(mixed_list)
 # print(output)
 
-# mixed_list = [11, 'Joseph', False, 3.14, None, [1, "bir"]]
+# mixed_list = [11, 'Joseph', False, 3.14, None, [1, "bir"]] # listenin içinde liste olabiliyor
+# output = list(mixed_list)
+# print(output)
+
+# mixed_list = [11, list('Joseph'), False, 3.14, None,(1, "bir")]  # listenin içinde liste olabiliyor
 # output = list(mixed_list)
 # print(output)
 
@@ -93,7 +106,6 @@
 # print(new_list2)
 # print(len(new_list1))
 # print(len(new_list2))
-# print(list(my_list))
 
 # my_list = ["em", "key", 4130]
 # new_list = list(my_list)
@@ -117,6 +129,8 @@
 
 # a = "deneme".casefold()
 # b = "DenemE".casefold()
+# print(a)
+# print(b)
 # if a == b:
 #     print(True)
 # else:
@@ -204,54 +218,3 @@
 # x.sort(reverse=True)
 # x.reverse
 # print(x)
-
-
-################################ PRECLASS DERS NOTLARI ÇALIŞMSI  ######################################
-
-# country = ["USA", "Brasil", "UK", "Germany", "Turkey", "New Zealand"]
-# print(country)
-
-# string_1 = "I quit smoking"
-# new_list_1 = list(string_1)  # we created multi element list
-# print(new_list_1)
-# print(list(string_1))
-
-# new_list_2 = [string_1]  # this is a single element list
-# print(new_list_2)
-
-
-
-# mixed_list = [11, 'Joseph', False, 3.14, None, [1, 2, 3]]
-# output = list(mixed_list)
-# print(output)
-
-# warning = 'You must quit smoking!'
-
-# print(len(list(warning)))
-
-# empty_list_1 = []
-# empty_list_1.append('114')
-# empty_list_1.append('plastic-free sea')
-
-# print(empty_list_1)
-
-# city = ['New York', 'London', 'Istanbul', 'Seoul', 'Sydney', 'Addis Ababa']
-# city.insert(2, 'Stockholm')
-
-# print(city)
-
-# city = ['New York', 'London', 'Stockholm', 'Istanbul', 'Seoul', 'Sydney', 'Addis Ababa']
-# city.remove('London')
-# print(city)  # we have deleted 'London'
-
-# city = ['Addis Ababa', 'Istanbul', 'New York', 'Seoul', 'Stockholm', 'Sydney']
-# print(len(city))
-
-# my_list = [1, 3, 5, 7]
-# print(my_list * 3)
-
-# city = ['New York', 'Stockholm', 'Istanbul', 'Seoul', 'Sydney', 'Addis Ababa']
-# city[1] = 'Melbourne'  # we assign 'Melbourne' to index 1
-# print(city) 
-
-

@@ -1,11 +1,11 @@
-##################### TUPLE ################################
+#################### TUPLE ################################
 # my_tuple = ("hakankan")
 # my_tuple2 = "hakankan"
 # my_tuple = tuple("hakankan")
 # print(my_tuple, type(my_tuple))  # tuple kelimeyi harflerine ayırıyor
 # print(my_tuple2, type(my_tuple2))
 
-# my_tuple = ("wakabayashi",)  # tek başına eleman yapmak için 
+# my_tuple = ("wakabayashi")  # tek başına eleman yapmak için 
 # my_tuple2 = "wakabayashi"
 # my_tuple = tuple("wakabayashi")
 # print(tuple(my_tuple2))
@@ -22,6 +22,10 @@
 # my_list = list(my_tuple)
 # print(my_tuple, type(my_tuple), sep="\n")
 # print(my_list, type(my_list), sep="\n")
+
+# my_tuple = (1, 2, 3, 4, 567, 7, 863)
+# print(my_tuple, type(my_tuple))
+
 
 # my_tuple = (1, 2, 3, 4, 567, 7, 863)
 # print(my_tuple[3])
@@ -43,15 +47,18 @@
 # print(sehirler)
 # sehirler[10] = "Muş"  # 'tuple' object does not support item assignment" hatası verir
 
-##########################################DICTIONARIES ##################################################  
+############################   DICT >> {} #################################  
 # {key1 : value1, key2 : value2}
 # {}
 # dict()  
 
-first_dict1 = {"cola" : 25, "ekmek" : 5, "makarna" : 5}
-first_dict2 = dict(kola = 5, ekmek =4, makarna = 5)
-print(first_dict1)
-print(first_dict2)
+# first_dict1 = {"cola" : 25, "ekmek" : 5, "makarna" : 5}
+# first_dict2 = dict(kola = 5, ekmek =4, makarna = "AKP")
+# print(first_dict1)
+# print(first_dict2)
+# print(list(first_dict1))
+# print(tuple(first_dict1))
+# print(set(first_dict1))
 
 # state_capitals = { "Ankara" : "Little Rock", 
 #                     "Colorado" : "Denver",
@@ -162,11 +169,16 @@ print(first_dict2)
 
 # setler unordered, dict order
 
-# set_1 = {'red', 'blue', 'pink', 'red'}
-# colors = 'red', 'blue', 'pink', 'red'
-# set_2 = set(colors)
-# print(type(set_1))  # her defasında farklı değerleri verir
-# print(set_2)
+set_1 = {'red', 'blue', 'pink', 'red'}
+colors = 'red', 'blue', 'pink', 'red'
+renkler = tuple(colors[0])
+print(renkler)
+renkler1 = set(colors[0])
+print(renkler1)
+set_2 = set(colors)
+print(type(set_1))  # her defasında farklı değerleri verir
+print(type(colors))
+print(set_2)
 
 # flower_list = ["rose", "orchid", "cactus", "ginger", "rose", "tulip"]
 # flower_set = set(flower_list)
