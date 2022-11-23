@@ -177,8 +177,8 @@
 
 
 # city[1] = 'Melbourne'  # we assign 'Melbourne' to index 1
-city = ['New York', 'Stockholm', 'Istanbul', 'Seoul', 'Sydney', 'Addis Ababa']
-print(city[0]) 
+# city = ['New York', 'Stockholm', 'Istanbul', 'Seoul', 'Sydney', 'Addis Ababa']
+# print(city[0]) 
 
 # sentence = input("Give me a sentence : ")
 # words = sentence.split()  # cümledeki boşlukları alarak verdi

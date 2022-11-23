@@ -60,13 +60,24 @@
 # print(tuple(first_dict1))
 # print(set(first_dict1))
 
+# first_dict = {"cola" : 25, "ekmek" : 5, "makarna" : 5}
+# first_dict2 = dict(kola = 5, ekmek =4, makarna = "AKP")
+# print(first_dict)
+# print(first_dict)
+# print(list(first_dict.keys()))
+# print(list(first_dict.values()))
+# print(tuple(first_dict.keys()))
+# print(tuple(first_dict.values()))
+# print(set(first_dict.keys()))
+# print(set(first_dict.values()))
+
 # state_capitals = { "Ankara" : "Little Rock", 
 #                     "Colorado" : "Denver",
 #                     "California" : "Sacramento",
 #                     "Geogia" : "Atlanta"
 # }
 
-# #state_capitals = ["Virgina" : "Richmond"]  # yanlış
+# state_capitals = ["Virgina" : "Richmond"]  # yanlış
 # print(state_capitals["Atlanta"])  # atlanta değerini döndürüyor
 # print(state_capitals["Atlanta"])
 
@@ -169,16 +180,16 @@
 
 # setler unordered, dict order
 
-set_1 = {'red', 'blue', 'pink', 'red'}
-colors = 'red', 'blue', 'pink', 'red'
-renkler = tuple(colors[0])
-print(renkler)
-renkler1 = set(colors[0])
-print(renkler1)
-set_2 = set(colors)
-print(type(set_1))  # her defasında farklı değerleri verir
-print(type(colors))
-print(set_2)
+# set_1 = {'red', 'blue', 'pink', 'red'}
+# colors = 'red', 'blue', 'pink', 'red'
+# renkler = tuple(colors[0])
+# print(renkler)
+# renkler1 = set(colors[0])
+# print(renkler1)
+# set_2 = set(colors)
+# print(type(set_1))  # her defasında farklı değerleri verir
+# print(type(colors))
+# print(set_2)
 
 # flower_list = ["rose", "orchid", "cactus", "ginger", "rose", "tulip"]
 # flower_set = set(flower_list)

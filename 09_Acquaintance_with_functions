@@ -1,0 +1,125 @@
+# def ilk_fonksiyonumuz(a, b):
+#     print((a ** 2) + (b ** 2))
+# ilk_fonksiyonumuz(int(input("bir sayı giriniz: ")), int(input("bir sayı daha giriniz: ")))
+
+# def multiply(a, b):
+#     print(a * b)
+# multiply(3, 5)
+# multiply(-1, 2.5)
+# multiply("amazing", 3)
+
+# def motto():
+#     print("Get up, stand up, Don't give up the right")
+# motto()
+
+# def add(a, b):
+#     print(a + b)
+# add(6, 5)
+
+# def calculator(x, y, z):
+    
+#     if (z == "+"):
+#         print(x + y)
+#     elif (z == "-"):
+#         print(x - y)
+#     elif (z == "*"):
+#         print(x * y)
+#     elif (z == "/"):
+#         print(x / y)
+#     else:
+#         print("Yapılacak işlemi doğru giriniz!")
+# calculator(int(input("ilk sayıyı giriniz: ")), int(input("ikinci sayıyı giriniz: ")),
+#             input("yapılacak işlemi giriniz: "))
+
+# x = int(input("Enter first number: "))
+# y = int(input("Enter second number: "))
+# z = input("Which function do you want?: ")
+# def calculator(x, y, z):
+#     if z == "+":
+#         print(x + y)
+#     elif z == "-":
+#         print(x - y)
+#     elif z == "*":
+#         print(x * y)
+#     elif z == "/":
+#         print(x / y)
+#     else:
+#         print("Invalid input")
+
+# calculator(x, y, z)
+
+# def multiply(a, b):
+#     print(a * b, type(a * b))
+# multiply(2, 3)
+
+
+# def çarpma(a, b):
+#     return a * b
+# print(çarpma(2, 3))
+# print(type(multiply(2, 3)))
+# print(type(çarpma(2, 3)))
+
+# def naber():
+#     return "nasılsın?"
+
+# def iyiyim():
+#     print(naber())
+#     return "iyiyim senden naber"
+# print(iyiyim())
+
+
+# def calculator(a, b, c):
+#     if c == "+":
+#         return(a + b)
+#     elif c == "-":
+#         return(a - b)
+#     elif c == "*":
+#         return(a * b)
+#     elif c == "/":
+#         return(a / b)
+# a = int(input("Enter a number: "))
+# b = int(input("Enter a number: "))
+# c = input("Enter an operation: ")
+# print(calculator(a, b, c))
+
+# def ReCalculater(a,b,r):
+#     if r == "+":
+#        return (a+b)
+#     elif r == "-":
+#          return (a-b)
+#     elif r == "*":
+#         return (a*b)
+#     elif r == "/":
+#         return (a/b)
+#     else:
+#         return "Duzgun bir operator giriniz!"
+# print(ReCalculater(22, 33, "*"))
+
+# def absolute_value(x):
+#     if x < 0:
+#         return -1 * x
+#     if x >= 0:
+#         return x
+
+# print(absolute_value(3.3))
+# print(absolute_value(-4))
+
+
+# def mutlak_deger(a):
+#     if a < 0:
+#         return(abs(a))
+#     if a >= 0:
+#         return a
+
+# print(mutlak_deger(3.3))
+# print(mutlak_deger(-4))
+
+def max_length():
+    l = []
+    k = []
+    for i in range(4):
+        kelime = input("lütfen bir kelime giriniz: ")
+        l.append(len(kelime))
+        k.append(kelime)
+    return (f"{k[l.index(max(l))]} kelimesi daha uzun bir kelimedir : {max(l)}")
+print(max_length())
