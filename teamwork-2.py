@@ -14,3 +14,15 @@
 # a = "klenrRew"
 # a.lower
 # print(a)
+
+# z=set('abc')
+# z.add('san')
+# z.update(set(['p', 'q']))
+# print(z)
+
+# count, fruit, price = (2, 'apple', 3.5)
+# print(count)
+
+# college_years = ['Freshman', 'Sophomore', 'Junior', 'Senior']
+# print(list(enumerate(college_years, 2019)))
+

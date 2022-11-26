@@ -114,12 +114,12 @@
 # print(mutlak_deger(3.3))
 # print(mutlak_deger(-4))
 
-def max_length():
-    l = []
-    k = []
-    for i in range(4):
-        kelime = input("lütfen bir kelime giriniz: ")
-        l.append(len(kelime))
-        k.append(kelime)
-    return (f"{k[l.index(max(l))]} kelimesi daha uzun bir kelimedir : {max(l)}")
-print(max_length())
+# def max_length():
+#     l = []
+#     k = []
+#     for i in range(4):
+#         kelime = input("lütfen bir kelime giriniz: ")
+#         l.append(len(kelime))
+#         k.append(kelime)
+#     return (f"{k[l.index(max(l))]} kelimesi daha uzun bir kelimedir : {max(l)}")
+# print(max_length())
