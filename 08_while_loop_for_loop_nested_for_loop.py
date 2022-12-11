@@ -8,6 +8,24 @@
 #     number += 1
 # print("now, number is bigger than or equel to 6")
 
+a = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+     "n", "o","q", "p", "r", "s", "t", "u", "v", "w", "y", "z")
+b = str(input("lütfen bir harf giriniz : "))
+
+if (b) in a:
+    print(f"{b} harfi alfabenin içindedir")
+    
+elif b != str(b):
+    print(f"Ne zaman {b} harf oldu eblek")
+    
+elif len(b) > 1 : 
+    print("lütfen sadece tek harf giriniz!")
+    
+else:
+    print(f"Girdiğiniz '{b}' alfabenin içinde değildir ")
+    
+    
+    
 # number = 0
 # while number < 20:
 #     print(number)
