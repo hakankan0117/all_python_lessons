@@ -11,3 +11,5 @@ for i in value :
         dizi.append(i)
 
 print(dizi)
+
+#  print()
