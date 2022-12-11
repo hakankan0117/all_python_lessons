@@ -27,14 +27,14 @@
 # my_age = 10
 # print(my_age)  # python son yazan geçerli
 
-x = y = z = "same"
-x = "not same"
-z = x
-y = x
-print(x)
-print(y)
-print(z)
-print(x, y, z)
+# x = y = z = "same"
+# x = "not same"
+# z = x
+# y = x
+# print(x)
+# print(y)
+# print(z)
+# print(x, y, z)
 
 
 # january = march = may = july = august = october = december = 31
@@ -68,10 +68,10 @@ print(x, y, z)
 # my_text = "being a good person"
 # print(type(my_text))
 
-# my_text = 1
-# print(type(my_text))
-# my_text = str(my_text)  # "int" str'e dönüşebilir fakat str int'e dönüşemez
-# print(type(my_text))
+my_text = 1
+print(type(my_text))
+my_text = str(my_text)  # "int" str'e dönüşebilir fakat str int'e dönüşemez
+print(type(my_text))
 
 # your_mail = "hakankan0117@gmail.com"
 # number = 4130
