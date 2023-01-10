@@ -7,7 +7,7 @@ a = ("a", "b", "c","ç", "d", "e", "f", "g","ğ", "h", "ı", "i", "j", "k", "l",
 dizi = []
 
 for i in value :
-    if not (i in dizi) and i != " "  and i in a:
+    if not (i in dizi) and i != " "  and i in value:
         dizi.append(i)
 
 print(dizi)

@@ -1,8 +1,3 @@
-count = 0
-while count < 5:
-    print("Halil Pazarlama")
-    count += 1
-print("Osman Pazarlama")
 
 # isim = "M.Osman"
 # for i in isim:

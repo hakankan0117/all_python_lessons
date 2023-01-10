@@ -5,12 +5,12 @@
 # print(my_tuple, type(my_tuple))  # tuple kelimeyi harflerine ayırıyor
 # print(my_tuple2, type(my_tuple2))
 
-# my_tuple = ("wakabayashi")  # tek başına eleman yapmak için 
-# my_tuple2 = "wakabayashi"
-# my_tuple = tuple("wakabayashi")
-# print(tuple(my_tuple2))
-# print(my_tuple, type(my_tuple))
-# print(my_tuple2)
+my_tuple = ("wakabayashi")  # tek başına eleman yapmak için 
+my_tuple2 = "wakabayashi"
+my_tuple = tuple("wakabayashi")
+print(tuple(my_tuple2))
+print(my_tuple, type(my_tuple))
+print(my_tuple2)
 
 # my_tuple = ("wakabayashi")
 # my_tuple2 = "wakabayashi"

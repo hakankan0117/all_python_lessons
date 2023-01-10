@@ -8,24 +8,6 @@
 #     number += 1
 # print("now, number is bigger than or equel to 6")
 
-a = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
-     "n", "o","q", "p", "r", "s", "t", "u", "v", "w", "y", "z")
-b = str(input("lütfen bir harf giriniz : "))
-
-if (b) in a:
-    print(f"{b} harfi alfabenin içindedir")
-    
-elif b != str(b):
-    print(f"Ne zaman {b} harf oldu eblek")
-    
-elif len(b) > 1 : 
-    print("lütfen sadece tek harf giriniz!")
-    
-else:
-    print(f"Girdiğiniz '{b}' alfabenin içinde değildir ")
-    
-    
-    
 # number = 0
 # while number < 20:
 #     print(number)
@@ -38,11 +20,11 @@ else:
 #     print(f"square of {a} is : {a ** 2}")
 #     a += 1
 
-# age = input("Please enter your age please : ")
-# while age.isdigit():
-#     print(f"Great you entered valid input : {age}")
-#     age = input("Please enter your age : ")
-# print("You entered invalid input")
+age = input("Please enter your age please : ")
+while age.isdigit():
+    print(f"Great you entered valid input : {age}")
+    age = input("Please enter your age : ")
+print("You entered invalid input")
 
 # cevap = 17
 # soru = "What number am i think number of? "
@@ -112,7 +94,7 @@ else:
 
 ######### for variable in iterable: #############
 
-# for i in [1, 2, 3, 4, 5]
+# for i in [1, 2, 3, 4, 5]:
 #     print(i)
 
 # liste = [1, 2, 3, 4, 5]
@@ -123,20 +105,22 @@ else:
 # for number in liste:
 #     print(number)
 
-# seasons = ['spring', 'summer', 'autumn', 'winter']
+# seasons = {'spring', 'summer', 'autumn', 'winter'}
+# dizi = []
 # for i in seasons :
-#     print(i)
+#     dizi.append(i)
+#     print(dizi)
 
  
-# seasons = "erokmbwlkvkwpegmwegowmekglweogkwpeowpeokw"
+# seasons = "Mehmet Kanuş"
 # for i in seasons :
 #     print(i)   
 
-# seasons = "erokmbwlkvkwpegmwegowmekglweogkwpeowpeokw",  # tuple old. için yanyanya yazıyor
+# seasons = "Mehmet Kanuş",  # tuple olduğu için yanyana yazıyor
 # for i in seasons :
 #     print(i)   
 
-# seasons = "erokmbwlkvkwpegmwegowmekglweogkwpeowpeokw"
+# seasons = "erokmbwlkvkwpegmwegowmekglweogkwpeowpeokw",
 # for i in seasons :
 #     print(len(i))   
 
@@ -148,8 +132,9 @@ else:
 # for i in isim:
 #     print(f"Hello, {i}!")
 
+# sayi = 10
 # liste = []
-# for i in range(1, 6):
+# for i in range(sayi):
 #     liste.append(i)
 #     print(liste)
 
@@ -158,13 +143,8 @@ else:
 #     liste.append(i)
 # print(liste)  # tab geri olursa output farklı olur
 
-# liste = []
-# for i in range(1, 6):
-#     liste.append(i)
-#     print(i)
-
-# word = input("Clarusway")  # isteğe bağlı
-# word = "Clarusway"
+# word = input("bir kelime giriniz : ")  # isteğe bağlı
+# # word = "Clarusway"
 # for i in word:
 #     print(i, end="-")
    
